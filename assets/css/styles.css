@@ -8,7 +8,7 @@ html {
 	line-height: 1.6;
 	font-size: 19px;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", "Open Sans", "Archivo Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	--color-primary: #191970;
+	--color-primary: midnightblue;
 	--color-secondary: tomato;
 	--color-white: white;
 	--color-black: black;
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, "Open Sans", , sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	font-family: "Open Sans";
 	margin: 0;
 }
 
@@ -30,7 +30,6 @@ body {
 h2 {
 	font-size: 2rem;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
 	color: var(--color-primary);
 	grid-column: 1 / -1;
 	max-width: 768px;
@@ -71,6 +70,7 @@ header h3 {
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
 	max-width: 300px;
+	min-width: 250px;
 	padding: 16px;
 	background: var(--color-secondary);
 	color: #ffff;
@@ -84,12 +84,6 @@ header h3 {
 	box-shadow: var(--color-box-shadow);
 }
 
-.button-lg {
-	display: flex;
-	min-width: 200px;
-	justify-content: space-between;
-}
-
 #support {
 	display: flex;
 	align-items: center;
@@ -98,6 +92,7 @@ header h3 {
 	bottom: 0;
 	right: 0;
 	padding: 2px 16px;
+	min-width: 100px;
 	white-space: normal;
 	font-weight: 600;
 	font-size: 12.25px;
@@ -129,6 +124,10 @@ iframe {
 	width: 100%;
 	min-height: 368px;
 	max-width: 768px;
+}
+
+.text-center {
+	text-align: center;
 }
 
 .text-primary {
@@ -243,8 +242,6 @@ competitive section
 	width: 70%;
 	text-align: center;
 }
-
-.
 
 /*
 card section
@@ -386,9 +383,7 @@ grid
 	}
 }
 
-.text-center {
-	text-align: center;
-}
+
 
 /*
 form
