@@ -73,13 +73,13 @@ header h3 {
 	min-width: 250px;
 	padding: 16px;
 	background: var(--color-secondary);
-	color: #ffff;
+	color: #fff;
 	border-radius: 2px;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
 	font-weight: 600;
-	font-size: 1em;
+	font-size: 1.1em;
 	white-space: normal;
 	box-shadow: var(--color-box-shadow);
 }
@@ -95,9 +95,9 @@ header h3 {
 	min-width: 100px;
 	white-space: normal;
 	font-weight: 600;
-	font-size: 12.25px;
+	font-size: 13.25px;
 	background: var(--color-secondary);
-	color: #ffff;
+	color: #fff;
 	border-radius: 2px;
 	text-transform: uppercase;
 }
