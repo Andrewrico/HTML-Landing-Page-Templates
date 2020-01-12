@@ -91,15 +91,15 @@ header h3 {
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	padding: 2px 16px;
+	padding: 1px 8px;
 	min-width: 100px;
 	white-space: normal;
 	font-weight: 600;
-	font-size: 13.25px;
+	font-size: 1rem;
 	background: var(--color-secondary);
 	color: #fff;
 	border-radius: 2px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 #support svg {
