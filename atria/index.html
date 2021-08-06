@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atria Demo Sign Up Form</title>
+    <meta name="description" content="Download the Atria brief, Grow as You Go: How Atria Helps You Scale as a Microsoft and Citrix Partner, to find out how you can:, 1) Manage Microsoft and Citrix services more effectively, 2) Simplify your management toolset, 3) Increase revenue with new offerings" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/stylesheet.css" as="style">
+    <link rel="stylesheet" type="text/css" media="all" href="assets/stylesheet.css" />
+    <link rel="canonical" href="www" />
+    <style>
+    </style>
+</head>
+
+<body>
+    <!-- 
+    HEADER
+    ============================================ -->
+    <a class="skip-to-content visually-hidden" href="#main" hidden> Back To Content </a>
+    <header class="header" role="banner">
+        <div class="header__wrapper">
+
+            <!-- You can have 1 h1 for each landmark... In this case, it's the header. -->
+            <h1 class="header-logo" itemscope itemtype="http://schema.org/Organization">
+                <a itemprop="url" href="/">
+                    <img itemprop="logo" src="images/logo.png" srcset="images/logo@2x.png 768w,
+                          images/logo@3x.svg 1360w" alt="Company Logo" width="268" height="95" />
+                </a>
+            </h1>
+        </div>
+    </header>
+    <!-- 
+    MAIN
+    ============================================ -->
+    <main id="main" class="main" role="main" tabindex="-1">
+
+
+        <section class="section" style="position: relative">
+            <div class="grid">
+
+                <div class="grid__column">
+                    <div class="content__copy">
+                        <h1 class="content-title">Take your Microsoft and Citrix services to the next level</h1>
+                        <p class="content-description"> Download the Atria brief,<b> Grow as You Go: How Atria Helps You
+                                Scale as a Microsoft and Citrix Partner, </b>to find out how you can: </p>
+                        <ul class="content-points">
+                            <li> Manage Microsoft and Citrix services more effectively </li>
+                            <li> Simplify your management toolset</li>
+                            <li>Increase revenue with new offerings</li>
+                        </ul>
+                        <img src="images/share.png" srcset="images/share@2x.png 768w, images/share@3x.svg 1360w"
+                            class="content-img" alt="Share on social media">
+                        <div class="divider"></div>
+                    </div>
+                </div>
+
+                <div class="grid__column " style="position: relative">
+                    <div class="form__block" style="position: relative">
+                        <div class="shape1"></div>
+                        <div class="shape2"></div>
+                        <div class="shape8"></div>
+                        <div class="shape3"></div>
+                        <div class="shape7"></div>
+                        <div class="content__form">
+                            <div class="form-header">
+                                <img src="images/flayer.png" srcset="images/flayer@x2.png 1360w" class="content-img"
+                                    alt="Subscribe ro download">
+                                <h3>Submit the form to receive the partner guide.</h3>
+                            </div>
+                            <form action="/thank-you" class="form-body">
+                                <div>
+                                    <label for="firstname" class="visually-hidden">First Name</label>
+                                    <input type="text" name="firstname" id="firstname" placeholder="First Name">
+                                </div>
+                                <div>
+                                    <label for="lastname" class="visually-hidden">Last Name</label>
+                                    <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                                </div>
+                                <div>
+                                    <label for="email" class="visually-hidden">Business Email </label>
+                                    <input type="email" name="email" id="email" placeholder="Business Email">
+                                </div>
+                                <div>
+                                    <label for="companyname" class="visually-hidden">Company Name</label>
+                                    <input type="text" name="companyname" id="companyname" placeholder="Company Name">
+                                </div>
+                                <div class="submit-container">
+                                    <button type="submit" class="button">Download Now</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="shape4"></div>
+                        <div class="shape5"></div>
+                        <div class="shape6"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+    <!-- 
+    FOOTER
+    ============================================ -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer__wrapper">
+            <span class="footer_copyright">
+                <span> Copyright © <span id="currentYear"></span> </span>
+                <span> Automate101. All Rights Reserved. </span>
+            </span>
+            <ul class="footer_disclaimer">
+                <li>
+                    <span class="breadcrum">|</span>
+                    <a href="/"> Privacy Policy </a>
+                </li>
+                <li>
+                    <span class="breadcrum">|</span>
+                    <a href="/"> Terms of Service </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    </script>
+
+    <script src="/assets/scripts.js"></script>
+</body>
+
+</html>
